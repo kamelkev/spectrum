@@ -756,7 +756,7 @@
             var format = currentPreferredFormat;
             if (currentAlpha < 1 && !(currentAlpha === 0 && format === "name")) {
                 if (format === "hex" || format === "hex3" || format === "hex6" || format === "name") {
-                    format = "rgb";
+                    format = "hex8";
                 }
             }
 
